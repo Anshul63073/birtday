@@ -1,0 +1,24 @@
+.invitation-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+  }
+  
+  .invitation-heading {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .invitation-to {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .invitation-message {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  

@@ -1,23 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import Invitation from './components/Invitation';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>benifits of reacts ...</h1>
-        <ol>
-          
-          <li>component based architecture</li>
-          <li>virtual Dom for efficient updates</li>
-          <li>Rich ecosystem and community</li>
-          <li>cross-platform development</li>
-          <li>Strong community support</li>
+      <Invitation
+  subject="Birthday Party Invitation"
+  to="jaGdish@gmail.com"
+  name="jaGdish"
+  date="next Friday"
+  location="Green field Avenue"
+  friends="Ritu, Saurabh, Kartik"
+/>
 
-        </ol>
-        <button>get started</button>
-      </header>
     </div>
   );
 }
